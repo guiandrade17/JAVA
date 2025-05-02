@@ -1,0 +1,20 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        String nome = "Guilherme";
+        int idade = 24;
+        char sexo = 'M';
+        boolean estaFaculdade = true;
+        double muitoDinheiro = 19.03;
+        byte classRoyale = 98;
+        float gastomuitodema = 230f;
+
+        System.out.println("Meu nome é " + nome);
+        System.out.println("Tenho " + idade + " anos de idade");
+        System.out.println("Me identifico com o sexo " + sexo);
+        System.out.println("É " + estaFaculdade + " que estou na faculdade");
+        System.out.println("Hoje tenho R$" + muitoDinheiro + " na conta para comprar uma pizza");
+        System.out.println(gastomuitodema);
+    }
+}
