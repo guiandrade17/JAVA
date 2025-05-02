@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        String nossoTexto = "OLÁ, mundo";
+        int comprimento = nossoTexto.length();
+        char letraDoMeuTexto = nossoTexto.charAt(9);
+        String parte = nossoTexto.substring(0, 10);
+        int posicao = nossoTexto.indexOf("mundo");
+        String minusculas = nossoTexto.toLowerCase();
+        String maiusculos = nossoTexto.toUpperCase();
+        String substituto = nossoTexto.replace('L', 'X');
+        String substituto2 = nossoTexto.replace('m', 'N');
+
+        System.out.println(nossoTexto);
+        System.out.println(comprimento);
+        System.out.println(letraDoMeuTexto);
+        System.out.println(parte);
+        System.out.println(posicao);
+        System.out.println(minusculas);
+        System.out.println(maiusculos);
+        System.out.println(substituto);
+        System.out.println(substituto2);
+    }
+}
